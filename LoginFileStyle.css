@@ -1,0 +1,143 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  background-color: #ecf0f1;
+}
+body {
+  width: 90%;
+  margin: 0px auto;
+  background-image: url(./images/i1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* opacity: 0.8; */
+}
+#header {
+  width: 100%;
+  height: 100px;
+  background-color: #34495e;
+}
+#navigation {
+  width: 100%;
+  /* height: 3%; */
+  height: 40px;
+  background-color: rgba(52, 152, 219, 1);
+}
+
+#container {
+  height: 500px;
+  width: 100%;
+}
+
+#footer {
+  height: 80px;
+  width: 100%;
+
+  background-color: #3d3d3d;
+  color: white;
+  line-height: 90px;
+}
+#nav_list li {
+  list-style: none;
+  display: inline;
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: 35px;
+}
+#nav_list li a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+#nav_list li a:hover {
+  color: #1b1464;
+}
+
+#topic {
+  width: 75%;
+  height: 100%;
+  float: right;
+}
+#topic h1 {
+  line-height: 100px;
+  font-size: 40px;
+  color: #f5f6fa;
+  text-transform: uppercase;
+  font-family: Charlemagne Std;
+  margin: 0px 50px 0px;
+}
+#logoimg {
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+#logoimg img {
+  margin: 10px 10px auto;
+  border-radius: 20px;
+  height: 80%;
+  width: 100%;
+}
+
+#nav_list li a.active {
+  color: #b9153e;
+}
+
+#LoginForm {
+  width: 50%;
+  min-height: 350px;
+  border: 1px solid #f3f5ee;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgb(233, 223, 230);
+}
+#LoginForm legend {
+  margin-left: 40px;
+  font-size: 30px;
+  color: #a2e40a;
+  font-family: Kozuka Mincho Pro H;
+}
+#LoginTable td {
+  padding: 10px;
+}
+#LoginTable th {
+  color: #f6f2e4;
+  font-size: 28px;
+}
+#LoginTable {
+  margin: 50px;
+  font-size: 20px;
+}
+#LoginTable a {
+  color: #f7f5f6;
+  text-decoration: none;
+}
+#LoginTable a:hover {
+  color: #13ec0c;
+  text-decoration: underline;
+}
+
+#LoginTable input[type="text"],
+#LoginTable input[type="password"] {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #4834d4;
+}
+#LoginTable input[type="submit"] {
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  border: 2px solid rgb(59, 15, 15);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: #2f3542;
+  background-color: lightblue;
+  line-height: 6px;
+}
+#LoginTable input[type="submit"]:hover {
+  color: rgb(6, 22, 235);
+  background: rgb(229, 233, 172);
+}

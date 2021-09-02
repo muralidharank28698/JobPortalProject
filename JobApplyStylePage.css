@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  background-color: #e7eef5;
+}
+#userdet {
+  margin: 30px auto;
+  width: 650px;
+  height: 600px;
+  /* background-color: royalblue; */
+  font-size: 25px;
+}
+#userdet input[type="text"],
+#userdet input[type="mailid"],
+#userdet input[type="password"] {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #1d165c;
+  padding: 4px;
+}
+#userdet textarea {
+  width: 300px;
+  /* height: 30px; */
+  border-radius: 5px;
+  font-size: 20px;
+  color: #1d165c;
+  padding: 4px;
+}
+#userdet input[type="file"] {
+  color: blue;
+  font-size: 15px;
+}
+/* #content {
+  background-color: red;
+} */
+/* #userdet tr {
+  padding: 30px;
+} */
+#userdet th {
+  padding: 14px;
+  color: #1d165c;
+  letter-spacing: 1px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+}
+#userdet select {
+  width: 300px;
+  height: 38px;
+  border-radius: 10px;
+}
+#userdet option {
+  color: #ff9f1a;
+  font-size: 20px;
+  font-style: oblique;
+}
+#userdet button {
+  color: #1c3cf3;
+  font-size: 25px;
+  height: 35px;
+  width: 200px;
+  border-radius: 10px;
+  padding: 15px;
+  line-height: 3px;
+  font-weight: bold;
+  background-color: #cd84f1;
+}
+#userdet td {
+  padding: 8px;
+}
+#userdet button:hover {
+  color: rgb(243, 208, 8);
+  background-color: #4b4b4b;
+}
+/* .topic h1 {
+  background-color: blueviolet;
+
+  height: 60px;
+  width: 100%;
+  padding: 10px;
+  float: left;
+} */
+
+.topic {
+  width: 100%;
+  height: 80px;
+}
+nav #head {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1.4px;
+  text-shadow: 2px 2px #ff0000;
+}
+nav #head h1 {
+  float: left;
+  color: rgb(247, 247, 223);
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+nav ul {
+  float: right;
+  margin-right: 200px;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 0px 20px;
+}
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(46, 43, 43);
+  line-height: 80px;
+  padding: 0px 80px;
+  position: fixed;
+  /* z-index: 1; */
+}
+nav ul li a:hover {
+  color: rgb(21, 241, 21);
+}
+nav ul li .active {
+  color: rgb(241, 190, 21);
+}
+.topic span {
+  color: rgb(13, 16, 180);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+  /* font-style: italic; */
+  text-shadow: 3px 2px rgb(245, 210, 12);
+}
+#Aform h1 {
+  /* background-color: blueviolet; */
+  text-align: center;
+  font-size: 35px;
+  color: #130f40;
+  margin-top: 30px;
+}

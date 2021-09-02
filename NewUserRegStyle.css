@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  background-color: #ecf0f1;
+}
+body {
+  width: 90%;
+  /* height: 1000px; */
+  height: auto;
+
+  margin: 0px auto;
+}
+#header {
+  width: 100%;
+  height: 100px;
+  background-color: #34495e;
+}
+/* #navigation {
+  width: 100%;
+  height: 40px;
+  
+  background-color: rgba(52, 152, 219, 1);
+} */
+#footer {
+  height: 80px;
+  width: 100%;
+
+  background-color: #3d3d3d;
+  color: white;
+  line-height: 90px;
+}
+/* #nav_list li {
+  list-style: none;
+  display: inline;
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: 35px;
+} */
+/* #nav_list li a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+} */
+/* #nav_list li a:hover {
+  color: #1b1464;
+} */
+
+#topic {
+  width: 75%;
+  height: 100%;
+  float: right;
+}
+#topic h1 {
+  line-height: 100px;
+  font-size: 40px;
+  color: #f5f6fa;
+  text-transform: uppercase;
+  font-family: Charlemagne Std;
+  margin: 0px 50px 0px;
+}
+#logoimg {
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+#logoimg img {
+  margin: 10px 10px auto;
+  border-radius: 20px;
+  height: 80%;
+  width: 100%;
+}
+#LoginTable {
+  /* background: tomato; */
+  margin: 30px auto;
+  width: 500px;
+  height: 300px;
+  /* margin: 50px; */
+  font-size: 25px;
+}
+#LoginTable input[type="text"],
+#LoginTable input[type="mailid"],
+#LoginTable input[type="password"] {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #4834d4;
+}
+#LoginTable input[type="submit"] {
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  border: 2px solid rgb(59, 15, 15);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: #2f3542;
+  background-color: lightblue;
+  line-height: 6px;
+}
+#LoginTable input[type="submit"]:hover {
+  color: orange;
+  background: rgb(106, 111, 141);
+}
+#LoginTable th {
+  padding: 20px;
+}
