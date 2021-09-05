@@ -322,7 +322,11 @@ include("conn.php");
         $res = $conn->query($sql);
         if($res == TRUE)
         {
-                echo '<script type="text/javascript">alert("Data Updated Successfully...")</script>';
+                echo '<script type="text/javascript">
+                alert("Data Updated Successfully...");
+                history.back();
+                </script>';
+                // header("./mca%204th%20Sem%20Web%20Tech%20Lab%20Subject/JobPortalApplication/editUserApp.php?id=13")
         }
         else{
                 echo '<script type="text/javascript">alert("Data Not Updated")</script>';
