@@ -60,7 +60,7 @@ include("conn.php");
                     <option value="Network engineer">Network engineer</option>
                     <option value="Data scientist">Data scientist</option>
                     <option value="Database administrator">Database administrator</option>
-                    
+                    <option value="software engineer">software engineer</option>
                 </select>
                 <button>search</button>
                 </form>

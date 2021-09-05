@@ -75,18 +75,22 @@ include("conn.php");
         }
         #detial a{
             color:green;
-            font-size: 22px;
-           
+            font-size: 30px;
+            
+            font-family:Georgia, "Times New Roman", Times, serif;
+ 
         }
         #detial a:hover{
             color:#5f27cd;
             text-decoration:none;
         }
+        
     </style>
 </head>
 <body>
     <h1>Candidates detials</h1>
-    <hr>
+    <hr style="height:2px;border-width:0;color:red;background-color:blue">
+
     <form action="" method="GET">
             <div id="input-text">
                 <input type="text" name="Name" value="<?php if(isset($_GET['Name'])){echo $_GET['Name'];} ?>">
@@ -114,57 +118,61 @@ include("conn.php");
                         
                         <div class="lab">
                             <label for="">Name</label><br>
-                            <input type="text" value="<?php echo $row['Name'];?>">
+                            <input type="text" name="name" value="<?php echo $row['Name'];?>">
                         </div>
                         <div class="lab">
                             <label for="">Age</label><br>
-                            <input type="text" value="<?php echo $row['Age'];?>">
+                            <input type="text" name="age" value="<?php echo $row['Age'];?>">
                         </div>
                         <div class="lab">
                             <label for="">Mail Id</label><br>
-                            <input type="mailid" value="<?php echo $row['MailId'];?>">
+                            <input type="mailid" name="mailid" value="<?php echo $row['MailId'];?>">
                         </div>
                         <div class="lab">
                             <label for="">Gender</label><br>
-                            <input type="text" value="<?php echo $row['Gender'];?>">
+                            <input type="text" name="gender" value="<?php echo $row['Gender'];?>">
                         </div>
                         <div class="lab">
                             <label for="">PhoneNo</label><br>
-                            <input type="text" value="<?php echo $row['PhoneNo'];?>">
+                            <input type="text" name="phoneno" value="<?php echo $row['PhoneNo'];?>">
                         </div>
                         <div class="lab">
                             <label for="">Address</label><br>
-                            <input type="text" value="<?php echo $row['Address'];?>">
+                            <input type="text" name="Address" value="<?php echo $row['Address'];?>">
                         </div>
                         <div class="lab">
                             <label for="">10thBoard</label><br>
-                            <input type="text" value="<?php echo $row['10thBoard'];?>">
+                            <input type="text" name="_10thboard" value="<?php echo $row['10thBoard'];?>">
                         </div>
                         <div class="lab">
                             <label for="">10thpercentage</label><br>
-                            <input type="text" value="<?php echo $row['10thpercentage'];?>">
+                            <input type="text" name="_10thper" value="<?php echo $row['10thpercentage'];?>">
                         </div>
                         <div class="lab">
                             <label for="">12thBoard</label><br>
-                            <input type="text" value="<?php echo $row['12thBoard'];?>">
+                            <input type="text" name="_12thboard" value="<?php echo $row['12thBoard'];?>">
                         </div>
                         <div class="lab">
                             <label for="">12thpercentage</label><br>
-                            <input type="text" value="<?php echo $row['12thpercentage'];?>">
+                            <input type="text" name="_12hper" value="<?php echo $row['12thpercentage'];?>">
                         </div>
                         <div class="lab">
                             <label for="">UGpercentage</label><br>
-                            <input type="text" value="<?php echo $row['UGpercentage'];?>">
+                            <input type="text" name="ugper" value="<?php echo $row['UGpercentage'];?>">
                         </div>
                         <div class="lab">
                             <label for="">PGpercentage</label><br>
-                            <input type="text" value="<?php echo $row['PGpercentage'];?>">
+                            <input type="text" name="pgper" value="<?php echo $row['PGpercentage'];?>">
                         </div>
                         <div class="lab">
                             <label for="">YourCV</label><br>
-                            <input type="text" value="<?php echo $row['UploadYourCV'];?>">
+                            <input type="text" name="file" value="<?php echo $row['UploadYourCV'];?>">
                         </div>
-                        <center><a href="">Edit Application</a></center>
+                        
+                             <center><a href="./editUserApp.php?id=<?php echo $row['id'];?>">Edit</a></center> 
+                     
+
+                        <!-- <center><button name="edit"><a href="./editUserApp.php">update</a></button></center> -->
                         <?php
                      }
             }

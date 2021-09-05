@@ -60,7 +60,7 @@
                 </tr>
                 <tr>
                     <th>10th Board</th>
-                    <td><select name="10thboard" id="">
+                    <td><select name="_10thboard" id="">
                         <option value="stateboard">None</option>
                         <option value="stateboard">State Board</option>
                         <option value="cbse">CBSE</option>
@@ -69,11 +69,11 @@
                 </tr>
                 <tr>
                     <th>10th percentage</th>
-                    <td><input type="text" name="10thper" id=""></td>
+                    <td><input type="text" name="_10thper" id=""></td>
                 </tr>
                 <tr>
                     <th>12th Board</th>
-                    <td><select name="12thboard" id="">
+                    <td><select name="_12thboard" id="">
                         <option value="stateboard">None</option>
                         <option value="stateboard">State Board</option>
                         <option value="cbse">CBSE</option>
@@ -82,7 +82,7 @@
                 </tr>
                 <tr>
                     <th>12th percentage</th>
-                    <td><input type="text" name="12hper" id=""></td>
+                    <td><input type="text" name="_12hper" id=""></td>
                 </tr>
                 <tr>
                     <th>UG percentage</th>
@@ -120,10 +120,10 @@ if(isset($_POST['submit']))
     $Gender = $_POST["gender"];
     $PhoneNo = $_POST["phoneno"];
     $Address = $_POST["Address"];
-    $Board10th = $_POST["10thboard"];
-    $percentage10th = $_POST["10thper"];
-    $Board12th = $_POST["12thboard"];
-    $percentage12th = $_POST["12hper"];
+    $Board10th = $_POST["_10thboard"];
+    $percentage10th = $_POST["_10thper"];
+    $Board12th = $_POST["_12thboard"];
+    $percentage12th = $_POST["_12hper"];
     $ugpercentage = $_POST["ugper"];
     $pgpercentage = $_POST["pgper"];
     $cv = $_POST["file"];

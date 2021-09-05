@@ -14,10 +14,7 @@ include("conn.php");
 
 
 <style>
-    body{
-  background-color: #d1ccc0;
-
-    }
+    
     table {
   border-collapse: separate;
   border-spacing: 0px 25px;
