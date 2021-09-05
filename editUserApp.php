@@ -10,7 +10,7 @@ include("conn.php");
    
    <style>
         body{
-          background-color:red;
+          background-color:#f5f6fa;
         }
         h1 {
             text-align: center;
